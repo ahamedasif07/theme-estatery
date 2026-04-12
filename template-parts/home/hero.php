@@ -27,7 +27,7 @@
 
     <div class="container mx-auto px-4 relative z-10 text-center text-white">
         <span
-            class="inline-block text-xs md:text-sm font-semibold mb-4 tracking-[0.2em] uppercase opacity-90 border-b border-accent pb-1">
+            class="inline-block text-xs md:text-sm font-semibold mb-4 tracking-[0.2em] uppercase opacity-90 border-b border-primary pb-1">
             Real Estate Agency
         </span>
 
@@ -42,7 +42,7 @@
         <div class="max-w-6xl mx-auto">
             <div class="flex justify-center -mb-[1px] space-x-1">
                 <button type="button"
-                    class="filter-tab active px-10 py-3.5 bg-accent text-accent-foreground font-bold rounded-t-xl transition-all"
+                    class="filter-tab active px-10 py-3.5 bg-primary text-accent-primary font-bold rounded-t-xl transition-all"
                     data-type="buy">Buy</button>
                 <button type="button"
                     class="filter-tab px-10 py-3.5 bg-white/90 backdrop-blur-sm text-foreground font-bold rounded-t-xl"
