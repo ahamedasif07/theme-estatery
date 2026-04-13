@@ -1,4 +1,4 @@
-<section class="py-24 bg-gray-50" id="why-choose">
+<section class="py-24 bg-gray-50 overflow-hidden" id="why-choose">
     <div class="container mx-auto px-6">
         <div class="text-center max-w-2xl mx-auto mb-16">
             <h2 class="reveal text-4xl font-extrabold text-secondary mb-6">Why Choose Capital Union</h2>
@@ -11,9 +11,16 @@
     </div>
 </section>
 
+<style>
+    .reveal,
+    .feature-box {
+        opacity: 0;
+        transform: translateY(40px);
+        will-change: transform, opacity;
+    }
+</style>
+
 <script>
-    // 1. Feature Data Array
-    // 1. Feature Data Array (Updated with 6 cards)
     const features = [{
             id: 1,
             title: "Verified Listings",
@@ -57,11 +64,11 @@
             bgColor: "bg-blue-50"
         }
     ];
-    // 2. Render Function
+
     const featureWrapper = document.getElementById('dynamic-features-wrapper');
 
     featureWrapper.innerHTML = features.map(feature => `
-        <div class="reveal feature-box p-10 bg-white rounded-[2.5rem] border border-transparent hover:border-primary/20 transition-all flex flex-col items-start shadow-sm group hover:shadow-xl duration-500">
+        <div class="feature-box p-10 bg-white rounded-[2.5rem] border border-transparent hover:border-primary/20 transition-all flex flex-col items-start shadow-sm group hover:shadow-xl duration-500">
             <div class="w-16 h-16 ${feature.bgColor} text-primary rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
                 ${feature.icon}
             </div>
@@ -72,36 +79,37 @@
         </div>
     `).join('');
 
-    // 3. GSAP Animation (Ager script-er window load event-er bhitore thakbe)
-    // Jodi alada file e hoy tobe nichei add kore din
     window.addEventListener('load', () => {
-        gsap.registerPlugin(ScrollTrigger);
+        if (typeof gsap !== 'undefined') {
+            gsap.registerPlugin(ScrollTrigger);
 
-        // Common Reveal Animation
-        gsap.utils.toArray('.reveal').forEach((el) => {
-            gsap.to(el, {
+            // Header Section Animation
+            gsap.to(".reveal", {
                 scrollTrigger: {
-                    trigger: el,
-                    start: "top 90%",
+                    trigger: "#why-choose",
+                    start: "top 80%",
+                    toggleActions: "play none none none"
                 },
                 opacity: 1,
                 y: 0,
-                duration: 1.2,
+                duration: 1,
+                stagger: 0.2,
+                ease: "power3.out"
+            });
+
+            // Feature Cards Staggered Animation
+            gsap.to(".feature-box", {
+                scrollTrigger: {
+                    trigger: "#dynamic-features-wrapper",
+                    start: "top 75%",
+                    toggleActions: "play none none none"
+                },
+                opacity: 1,
+                y: 0,
+                stagger: 0.15,
+                duration: 1,
                 ease: "power4.out"
             });
-        });
-
-        // Staggered Entrance for Feature Boxes
-        gsap.from(".feature-box", {
-            scrollTrigger: {
-                trigger: "#why-choose",
-                start: "top 75%"
-            },
-            opacity: 0,
-            y: 40,
-            stagger: 0.2,
-            duration: 1,
-            ease: "power3.out"
-        });
+        }
     });
 </script>
