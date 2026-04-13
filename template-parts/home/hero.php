@@ -145,10 +145,10 @@
             tabs.forEach(tab => {
                 tab.addEventListener('click', function() {
                     tabs.forEach(t => {
-                        t.classList.remove('bg-accent', 'text-accent-foreground');
+                        t.classList.remove('bg-primary', 'text-primary-foreground');
                         t.classList.add('bg-white/90', 'text-foreground');
                     });
-                    this.classList.add('bg-accent', 'text-accent-foreground');
+                    this.classList.add('bg-primary', 'text-primary-foreground');
                     this.classList.remove('bg-white/90', 'text-foreground');
                     document.getElementById('listing-type-input').value = this.dataset.type;
                 });
