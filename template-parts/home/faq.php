@@ -61,7 +61,7 @@
         transform: rotate(180deg);
     }
 
-    /* স্মুথ এনিমেশনের জন্য অতিরিক্ত ট্রানজিশন রিমুভ করা হয়েছে যা GSAP এর সাথে কনফ্লিক্ট করতে পারে */
+
     .faq-item {
         will-change: transform, opacity;
     }
@@ -87,10 +87,10 @@
                 const isActive = parent.classList.contains('active');
 
                 if (!isActive) {
-                    // ১. বর্তমান আইটেমকে Active করা
+
                     parent.classList.add('active');
 
-                    // উত্তর দেখানোর এনিমেশন
+
                     gsap.set(answer, {
                         display: 'block'
                     });
@@ -104,15 +104,15 @@
                         ease: "power2.out"
                     });
 
-                    // ২. বাকিগুলোকে দুই পাশে পাঠিয়ে দেওয়া
+
                     faqItems.forEach((item, index) => {
                         if (item !== parent) {
-                            // জোড় সংখ্যা বামে (-150%) এবং বিজোড় ডানে (150%) যাবে
+
                             const xSide = index % 2 === 0 ? -150 : 150;
 
                             gsap.to(item, {
                                 xPercent: xSide,
-                                autoAlpha: 0, // opacity 0 এবং visibility hidden করে দেয়
+                                autoAlpha: 0,
                                 scale: 0.7,
                                 height: 0,
                                 margin: 0,
@@ -124,7 +124,7 @@
                         }
                     });
                 } else {
-                    // ৩. বন্ধ করার সময় সব ফিরিয়ে আনা
+
                     parent.classList.remove('active');
 
                     gsap.to(answer, {
@@ -142,17 +142,17 @@
                             autoAlpha: 1,
                             scale: 1,
                             height: "auto",
-                            marginBottom: "1rem", // Tailwind space-y-4 এর সমান
+                            marginBottom: "1rem",
                             pointerEvents: 'auto',
                             duration: 0.8,
-                            ease: "back.out(1.2)" // বাইরে থেকে আসার সময় হালকা বাউন্স ইফেক্ট
+                            ease: "back.out(1.2)"
                         });
                     });
                 }
             });
         });
 
-        // ইনিশিয়াল স্ক্রল এনিমেশন (Section Reveal)
+
         gsap.from(".reveal", {
             scrollTrigger: {
                 trigger: "#faq-section",
