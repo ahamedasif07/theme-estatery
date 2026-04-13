@@ -58,8 +58,9 @@
                             Property</label>
                         <div class="relative">
                             <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
-                                    stroke="currentColor" stroke-width="2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
                                     <circle cx="11" cy="11" r="8" />
                                     <path d="m21 21-4.3-4.3" />
                                 </svg>
@@ -74,8 +75,9 @@
                             class="text-[10px] font-bold text-secondary uppercase tracking-widest ml-1">Location</label>
                         <div class="relative">
                             <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
-                                    stroke="currentColor" stroke-width="2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
                                     <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
                                     <circle cx="12" cy="10" r="3" />
                                 </svg>
@@ -94,8 +96,9 @@
                             Type</label>
                         <div class="relative">
                             <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
-                                    stroke="currentColor" stroke-width="2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
                                     <path
                                         d="M3 21h18M9 8h1M9 12h1M9 16h1M14 8h1M14 12h1M14 16h1M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16" />
                                 </svg>
@@ -111,8 +114,9 @@
                     <div class="w-full">
                         <button type="submit"
                             class="w-full h-[52px] bg-[#0a1d23] text-white rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-black transition-all shadow-lg active:scale-95">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
-                                stroke="currentColor" stroke-width="2.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                stroke-linejoin="round">
                                 <circle cx="11" cy="11" r="8" />
                                 <path d="m21 21-4.3-4.3" />
                             </svg>
