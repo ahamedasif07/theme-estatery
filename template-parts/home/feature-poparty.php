@@ -48,10 +48,10 @@ $properties = [
     <div class="container mx-auto px-4">
 
         <div class="text-center max-w-2xl mx-auto mb-16">
-            <span class="text-blue-600 font-bold tracking-[0.2em] uppercase text-[10px] mb-3 inline-block">Exclusive
+            <span class="text-primary font-bold tracking-[0.2em] uppercase text-[10px] mb-3 inline-block">Exclusive
                 Listings</span>
             <h2 class="text-4xl md:text-5xl font-black text-slate-900 mb-5 leading-tight">Featured Properties</h2>
-            <div class="w-16 h-1 bg-blue-600 mx-auto mb-6 rounded-full"></div>
+            <div class="w-16 h-1 bg-primary mx-auto mb-6 rounded-full"></div>
             <p class="text-slate-500 text-lg leading-relaxed">Handpicked properties just for you. Find the perfect home
                 that fits your lifestyle and budget.</p>
         </div>
@@ -71,15 +71,14 @@ $properties = [
 
                                     <div class="absolute top-6 left-6 flex gap-2">
                                         <span
-                                            class="bg-blue-600 text-white text-[10px] font-black px-4 py-2 rounded-xl uppercase tracking-widest shadow-lg shadow-blue-600/20">
+                                            class="bg-primary text-white text-[10px] font-black px-4 py-2 rounded-xl uppercase tracking-widest shadow-lg shadow-primary/20">
                                             <?php echo $property['type']; ?>
                                         </span>
                                     </div>
                                 </div>
 
                                 <div class="p-9 flex flex-col flex-grow">
-                                    <h3
-                                        class="text-2xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
+                                    <h3 class="text-2xl font-bold text-slate-900 mb-3  transition-colors">
                                         <a href="<?php echo home_url('/property/' . $property['slug']); ?>"
                                             class="text-inherit">
                                             <?php echo $property['title']; ?>
@@ -88,7 +87,7 @@ $properties = [
 
                                     <div class="flex items-center text-slate-400 text-sm font-medium mb-8">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                            fill="none" stroke="currentColor" stroke-width="2" class="mr-2 text-blue-600">
+                                            fill="none" stroke="currentColor" stroke-width="2" class="mr-2 text-primary">
                                             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                                             <circle cx="12" cy="10" r="3"></circle>
                                         </svg>
@@ -115,9 +114,9 @@ $properties = [
 
                                     <div class="mt-auto flex justify-between items-center">
                                         <span
-                                            class="text-blue-600 font-black text-2xl tracking-tighter"><?php echo $property['price']; ?></span>
+                                            class="text-primary font-black text-xl tracking-tighter"><?php echo $property['price']; ?></span>
                                         <a href="<?php echo home_url('/property/' . $property['slug']); ?>"
-                                            class="px-6 py-3 bg-slate-900 text-white rounded-2xl font-bold text-[11px] hover:bg-blue-600 transition-all duration-300 flex items-center gap-2">
+                                            class="px-6 py-3 bg-slate-900 text-white rounded-2xl font-bold text-[11px] hover:bg-primary transition-all duration-300 flex items-center gap-2">
                                             DETAILS
                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
@@ -134,10 +133,10 @@ $properties = [
             </div>
         </div>
 
-        <div class="text-center mt-16">
+        <div class="text-center mt-10">
             <a href="<?php echo home_url('/all-properties'); ?>"
-                class="inline-flex items-center gap-4 bg-blue-600 text-white font-black px-12 py-5 rounded-[1.5rem] hover:bg-slate-900 transition-all duration-500 shadow-2xl shadow-blue-600/20 hover:-translate-y-1 group">
-                BROWSE ALL PROPERTIES
+                class="inline-flex items-center gap-4 bg-primary text-white font-black px-6 py-3 rounded-[1.5rem] hover:bg-slate-900 transition-all duration-500 shadow-2xl shadow-primary/20 hover:-translate-y-1 group">
+                ALL PROPERTIES
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="3" class="transition-transform group-hover:translate-x-2">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
