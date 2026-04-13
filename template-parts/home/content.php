@@ -11,5 +11,9 @@ get_header();
 
 get_template_part('template-parts/home/hero');
 get_template_part('template-parts/home/feature-poparty');
+get_template_part('template-parts/home/why-chose-us');
+get_template_part('template-parts/home/counter');
+
+get_template_part('template-parts/home/faq');
 
 get_footer();

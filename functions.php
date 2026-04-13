@@ -23,10 +23,22 @@ function t($key)
 }
 
 
-/**
- * Hero Section Customizer Settings
- * Path: Appearance > Customize > Hero Settings
- */
+// enque GSAP for hero slider animations
+function theme_register_scripts()
+{
+    // 1. GSAP Core
+    wp_enqueue_script('gsap-js', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js', array(), '3.12.2', true);
+
+    // 2. ScrollTrigger Plugin
+    wp_enqueue_script('gsap-scroll-trigger', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js', array('gsap-js'), '3.12.2', true);
+
+    // 3. Lenis Smooth Scroll (Optional but recommended for your design)
+    wp_enqueue_script('lenis-js', 'https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js', array(), '1.0.33', true);
+
+    // 4. Your Custom Animation Script (Jekhane apni animation code likhben)
+    wp_enqueue_script('theme-animations', get_template_directory_uri() . '/js/animations.js', array('gsap-js', 'gsap-scroll-trigger'), '1.0', true);
+}
+add_action('wp_enqueue_scripts', 'theme_register_scripts');
 /**
  * Hero Section Customizer Settings
  * Path: Appearance > Customize > Hero Slider Images
