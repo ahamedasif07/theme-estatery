@@ -1,4 +1,4 @@
-<section class="py-20 bg-white">
+<section class="py-20 bg-[#F8FAFC]">
     <div class="container mx-auto px-5">
         <div class="text-center mb-16">
             <h2 class="text-3xl md:text-5xl font-bold text-secondary mb-4">Smart Real Estate Investing</h2>

@@ -72,7 +72,7 @@ $properties = [
                                 </div>
 
                                 <div class="p-6 flex flex-col flex-grow">
-                                    <h3 class="text-lg font-bold text-slate-900 mb-2 truncate">
+                                    <h3 class="text-lg font-bold text-secondary mb-2 truncate">
                                         <a href="<?php echo home_url('/property/' . $property['slug']); ?>"
                                             class="text-inherit hover:text-primary transition-colors">
                                             <?php echo $property['title']; ?>
@@ -91,17 +91,17 @@ $properties = [
                                     <div class="grid grid-cols-3 gap-2 py-4 border-y border-slate-50 mb-5 text-center">
                                         <div>
                                             <span
-                                                class="block text-slate-900 font-black text-xs"><?php echo $property['beds']; ?></span>
+                                                class="block text-secondary font-black text-xs"><?php echo $property['beds']; ?></span>
                                             <span class="text-[9px] text-slate-400 uppercase font-bold">Beds</span>
                                         </div>
                                         <div class="border-x border-slate-50">
                                             <span
-                                                class="block text-slate-900 font-black text-xs"><?php echo $property['baths']; ?></span>
+                                                class="block text-secondary font-black text-xs"><?php echo $property['baths']; ?></span>
                                             <span class="text-[9px] text-slate-400 uppercase font-bold">Baths</span>
                                         </div>
                                         <div>
                                             <span
-                                                class="block text-slate-900 font-black text-xs"><?php echo number_format($property['sqft']); ?></span>
+                                                class="block text-secondary font-black text-xs"><?php echo number_format($property['sqft']); ?></span>
                                             <span class="text-[9px] text-slate-400 uppercase font-bold">Sqft</span>
                                         </div>
                                     </div>
@@ -110,7 +110,7 @@ $properties = [
                                         <span
                                             class="text-primary font-black text-lg tracking-tighter"><?php echo $property['price']; ?></span>
                                         <a href="<?php echo home_url('/property/' . $property['slug']); ?>"
-                                            class="p-2.5 bg-slate-900 text-white rounded-xl hover:bg-primary transition-all duration-300">
+                                            class="p-2.5 bg-secondary text-white rounded-xl hover:bg-primary transition-all duration-300">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
                                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -128,7 +128,7 @@ $properties = [
 
         <div class="text-center mt-6">
             <a href="<?php echo home_url('/all-properties'); ?>"
-                class="inline-flex items-center gap-3 bg-primary text-white font-black px-6 py-3 rounded-2xl hover:bg-slate-900 transition-all duration-500 shadow-xl shadow-primary/20 group text-xs">
+                class="inline-flex items-center gap-3 bg-primary text-white font-black px-6 py-3 rounded-2xl hover:bg-secondary transition-all duration-500 shadow-xl shadow-primary/20 group text-xs">
                 ALL PROPERTIES
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="3" class="transition-transform group-hover:translate-x-1">
