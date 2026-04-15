@@ -35,7 +35,7 @@
 
             <div class="lg:col-span-6 space-y-6 reveal-text">
                 <div class="flex items-center gap-2">
-                    <span class="text-secondary font-bold text-lg uppercase tracking-widest">01. About Us</span>
+                    <span class=" text-secondary font-bold uppercase tracking-[0.3em] text-xs"> Our Story</span>
                 </div>
 
                 <h2 class="text-4xl md:text-5xl lg:text-6xl font-serif text-secondary leading-tight font-semibold">

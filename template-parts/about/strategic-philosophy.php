@@ -1,4 +1,4 @@
-<section class="py-24 bg-white overflow-hidden" id="values-section">
+<section class="py-24 bg-[#FCFCFC] overflow-hidden" id="values-section">
     <div class="container mx-auto px-6">
         <div class="max-w-3xl mb-16">
             <span class="text-secondary font-bold uppercase tracking-[0.3em] text-xs">Our Philosophy</span>
@@ -33,7 +33,7 @@
             foreach ($values as $val):
             ?>
                 <div
-                    class="value-card group relative p-10 bg-[#f9f9f9] border border-gray-100 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl overflow-hidden">
+                    class="value-card group relative p-10 bg-white shadow border border-gray-100 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl overflow-hidden">
                     <div
                         class="absolute top-0 left-0 w-0 h-[3px] bg-secondary group-hover:w-full transition-all duration-700">
                     </div>

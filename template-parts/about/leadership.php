@@ -1,8 +1,5 @@
-<section class="relative py-24 bg-[#fcfcfc] overflow-hidden">
-    <div
-        class="absolute top-10 left-10 text-[10rem] font-serif text-gray-100 select-none leading-none opacity-50 hidden lg:block">
-        Vision
-    </div>
+<section class="relative py-24 bg-white overflow-hidden">
+
 
     <div class="container mx-auto px-6 lg:px-12 relative z-10">
         <div class="flex flex-col lg:flex-row items-center lg:items-end gap-12 lg:gap-0">
