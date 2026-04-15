@@ -43,9 +43,7 @@
                         <?php echo $step[2]; ?>
                     </p>
 
-                    <div
-                        class="step-dot absolute top-[31px] -left-2 w-2 h-2 bg-primary rounded-full hidden lg:block scale-0">
-                    </div>
+
                 </div>
             <?php endforeach; ?>
         </div>
