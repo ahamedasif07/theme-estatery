@@ -48,7 +48,7 @@ $properties = [
                 Listings</span>
             <h2 class="text-3xl md:text-4xl font-black text-secondary mb-4 leading-tight">Featured Properties</h2>
             <div class="w-12 h-1 bg-primary mx-auto mb-4 rounded-full"></div>
-            <p class="text-slate-500 text-base leading-relaxed">Handpicked properties just for you.</p>
+            <p class="body-copy text-secondary mb-0">Handpicked properties just for you.</p>
         </div>
 
         <div class="relative group">

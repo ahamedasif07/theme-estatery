@@ -2,7 +2,7 @@
     <div class="container mx-auto px-6">
         <div class="text-center max-w-2xl mx-auto mb-16">
             <h2 class="reveal text-4xl font-extrabold text-secondary mb-6">Why Choose Capital Union</h2>
-            <p class="reveal text-text-gray">We provide everything you need to find, buy, or rent your perfect property
+            <p class="reveal body-copy mx-auto">We provide everything you need to find, buy, or rent your perfect property
                 with confidence.</p>
         </div>
 
@@ -73,7 +73,7 @@
                 ${feature.icon}
             </div>
             <h3 class="text-2xl font-bold text-secondary mb-4">${feature.title}</h3>
-            <p class="text-text-gray text-base leading-relaxed">
+            <p class="body-copy text-secondary mb-0 max-w-none">
                 ${feature.description}
             </p>
         </div>

@@ -50,7 +50,7 @@
                         </div>
 
                         <h4 class="text-2xl font-bold text-primary mb-4"><?php echo $val['title']; ?></h4>
-                        <p class="text-gray-500 leading-relaxed font-light">
+                        <p class="body-copy mb-0">
                             <?php echo $val['desc']; ?>
                         </p>
                     </div>

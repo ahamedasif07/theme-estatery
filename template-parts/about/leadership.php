@@ -46,7 +46,7 @@
                             d="M14.017 21L14.017 18C14.017 16.899 14.899 16 16 16C17.101 16 18 16.899 18 18L18 21L14.017 21ZM14.017 21L10 21L10 18C10 14.686 12.686 12 16 12L16 11C16 9.343 14.657 8 13 8L13 7C15.209 7 17 8.791 17 11L17 12L18 12C21.314 12 24 14.686 24 18L24 21L14.017 21ZM4.017 21L4.017 18C4.017 16.899 4.899 16 6 16C7.101 16 8 16.899 8 18L8 21L4.017 21ZM4.017 21L0 21L0 18C0 14.686 2.686 12 6 12L6 11C6 9.343 4.657 8 3 8L3 7C5.209 7 7 8.791 7 11L7 12L8 12C11.314 12 14 14.686 14 18L14 21L4.017 21Z" />
                     </svg>
 
-                    <p class="text-lg text-gray-600 leading-relaxed font-light border-l-2 border-primary/90 pl-8">
+                    <p class=" border-l-2 border-primary/90 pl-8">
                         Our journey began in 1988 with a simple blueprint: to build with uncompromising quality. Today,
                         we continue to bridge the gap between architectural innovation and human-centric design. We
                         don't just develop projects; we cultivate legacies.
