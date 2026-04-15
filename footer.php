@@ -45,7 +45,7 @@ $social_links = [
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo1.png"
                         alt="Capital Union Logo" class="h-20 w-auto">
                 </a>
-                <p class="text-text-gray max-w-sm leading-relaxed text-base">
+                <p class="text-secondary max-w-sm leading-relaxed text-base">
                     Find your dream home with the most comprehensive real estate platform.
                 </p>
             </div>
@@ -56,7 +56,7 @@ $social_links = [
                     <ul class="space-y-4">
                         <?php foreach ($menu['links'] as $link): ?>
                             <li>
-                                <a href="#" class="text-text-gray hover:text-primary transition-colors duration-300">
+                                <a href="#" class="text-secondary hover:text-primary transition-colors duration-300">
                                     <?php echo $link; ?>
                                 </a>
                             </li>
@@ -67,7 +67,7 @@ $social_links = [
         </div>
 
         <div class="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-6">
-            <p class="text-text-gray text-sm">
+            <p class="text-secondary text-sm">
                 © <?php echo date('Y'); ?> Estatery. All rights reserved.
             </p>
 

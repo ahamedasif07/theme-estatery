@@ -1,0 +1,121 @@
+<section class="relative py-24 bg-[#fcfcfc] overflow-hidden">
+    <div
+        class="absolute top-10 left-10 text-[10rem] font-serif text-gray-100 select-none leading-none opacity-50 hidden lg:block">
+        Vision
+    </div>
+
+    <div class="container mx-auto px-6 lg:px-12 relative z-10">
+        <div class="flex flex-col lg:flex-row items-center lg:items-end gap-12 lg:gap-0">
+
+            <div class="w-full lg:w-5/12 relative group reveal-image-container">
+                <div class="absolute -bottom-6 -right-6 w-2/3 h-2/3 border-2 border-secondary z-0 hidden lg:block">
+                </div>
+
+                <div class="relative z-10 rounded-sm overflow-hidden shadow-2xl bg-primary">
+                    <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1000"
+                        alt="CEO"
+                        class="w-full h-[550px] object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-110 group-hover:scale-100">
+                </div>
+
+                <div
+                    class="absolute -bottom-10 -left-6 lg:left-[-10%] bg-white p-6 shadow-xl z-20 hidden md:block border-l-4 border-secondary reveal-card">
+                    <p class="text-secondary font-bold text-4xl italic">
+                        <span class="count-up" data-target="35">0</span>+
+                    </p>
+                    <p class="text-xs uppercase tracking-widest text-gray-500 font-semibold">Years of Integrity</p>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-7/12 lg:pl-24 space-y-8 reveal-content">
+                <div class="inline-block">
+                    <span class="text-secondary font-bold uppercase tracking-[0.3em] text-xs flex items-center gap-3">
+                        <span class="w-10 h-[1px] bg-secondary"></span>
+                        Executive Message
+                    </span>
+                </div>
+
+                <h2 class="text-4xl md:text-6xl font-serif text-primary leading-[1.1] font-medium">
+                    Designing the <span class="italic text-secondary">Future</span>, <br>
+                    Respecting the <span class="italic">Past</span>.
+                </h2>
+
+                <div class="relative">
+                    <svg class="absolute -top-4 -left-8 w-12 h-12 text-primary/90 -z-10" fill="currentColor"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M14.017 21L14.017 18C14.017 16.899 14.899 16 16 16C17.101 16 18 16.899 18 18L18 21L14.017 21ZM14.017 21L10 21L10 18C10 14.686 12.686 12 16 12L16 11C16 9.343 14.657 8 13 8L13 7C15.209 7 17 8.791 17 11L17 12L18 12C21.314 12 24 14.686 24 18L24 21L14.017 21ZM4.017 21L4.017 18C4.017 16.899 4.899 16 6 16C7.101 16 8 16.899 8 18L8 21L4.017 21ZM4.017 21L0 21L0 18C0 14.686 2.686 12 6 12L6 11C6 9.343 4.657 8 3 8L3 7C5.209 7 7 8.791 7 11L7 12L8 12C11.314 12 14 14.686 14 18L14 21L4.017 21Z" />
+                    </svg>
+
+                    <p class="text-lg text-gray-600 leading-relaxed font-light border-l-2 border-primary/90 pl-8">
+                        Our journey began in 1988 with a simple blueprint: to build with uncompromising quality. Today,
+                        we continue to bridge the gap between architectural innovation and human-centric design. We
+                        don't just develop projects; we cultivate legacies.
+                    </p>
+                </div>
+
+                <div class="flex items-center gap-6 pt-6">
+                    <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-secondary shadow-md">
+                        <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=100"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-primary tracking-tight">Asif Ahamed</h4>
+                        <p class="text-secondary text-xs uppercase tracking-widest font-bold">Founder & Managing
+                            Director</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    const tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".reveal-image-container",
+            start: "top 80%",
+        }
+    });
+
+    // 1. Image Container Slide Up
+    tl.from(".reveal-image-container", {
+            y: 80,
+            opacity: 0,
+            duration: 1.2,
+            ease: "power4.out"
+        })
+        // 2. Staggered Text Entry
+        .from(".reveal-content > *", {
+            x: 40,
+            opacity: 0,
+            duration: 0.8,
+            stagger: 0.15,
+            ease: "power3.out"
+        }, "-=0.9")
+        // 3. Floating Card Pop-in
+        .from(".reveal-card", {
+            scale: 0.8,
+            opacity: 0,
+            duration: 0.6,
+            ease: "back.out(1.7)"
+        }, "-=0.6")
+        // 4. Numerical Counter Animation
+        .to(".count-up", {
+            innerText: (i, target) => target.getAttribute('data-target'),
+            duration: 2,
+            snap: {
+                innerText: 1
+            },
+            ease: "power1.inOut",
+            onUpdate: function() {
+                // Optional: Ensure the number remains an integer during tween
+                this.targets()[0].innerHTML = Math.ceil(this.targets()[0].innerText);
+            }
+        }, "-=0.4");
+</script>
