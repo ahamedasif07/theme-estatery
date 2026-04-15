@@ -25,7 +25,7 @@
 
                 <div class="space-y-6 pb-6 border-b border-secondary/5">
                     <div class="text-2xl font-black text-secondary uppercase tracking-tighter">
-                        ALTARA<span class="text-primary">.</span>
+                        Capital Union<span class="text-primary">.</span>
                     </div>
                     <p class="text-secondary/60 text-sm leading-relaxed">
                         Expert guidance in property investments and premium real estate solutions across Bangladesh.
