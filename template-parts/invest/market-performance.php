@@ -1,165 +1,70 @@
-<section class="py-24 lg:py-32 bg-[#FCFCFC]" id="asset-sectors">
-    <div class="container mx-auto px-6 lg:px-12">
-
-        <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-20 gap-8 reveal-header">
-            <div class="max-w-2xl">
-                <span class="text-secondary font-bold uppercase tracking-[0.3em] text-sm block mb-4">
-                    Sector Focus
-                </span>
-                <h2 class="text-4xl lg:text-5xl font-extrabold text-secondary tracking-tighter leading-none">
-                    Diversified Assets. <br>
-                    <span class="font-light italic">Unrivaled Stability.</span>
-                </h2>
-            </div>
-            <div class="lg:max-w-xs">
-                <p class="text-secondary opacity-70 text-sm leading-relaxed">
-                    We strategically allocate capital across key growth sectors to mitigate market volatility and ensure
-                    long-term wealth preservation.
-                </p>
-            </div>
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-5">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-5xl font-bold text-secondary mb-4">Smart Real Estate Investing</h2>
+            <p class="text-gray-500 max-w-2xl mx-auto text-lg">Build your wealth through high-growth real estate assets
+                in prime locations.</p>
         </div>
 
-        <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-secondary/10 border border-secondary/10 overflow-hidden reveal-sectors">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
 
-            <div
-                class="bg-white p-12 relative group cursor-pointer transition-all duration-500 overflow-hidden min-h-[400px] flex flex-col justify-between">
+            <div class="group p-8 rounded-3xl bg-gray-50 hover:bg-primary transition-all duration-500">
                 <div
-                    class="absolute inset-0 bg-secondary translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-expo">
+                    class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-500">
+                    <svg class="w-8 h-8 text-primary group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
                 </div>
-
-                <div class="relative z-10">
-                    <span class="text-secondary group-hover:text-white/40 font-mono text-xs transition-colors">01
-                        /</span>
-                    <h3
-                        class="text-secondary group-hover:text-white text-2xl font-extrabold uppercase mt-4 tracking-tighter transition-colors">
-                        Luxury <br>Residential</h3>
-                </div>
-
-                <div class="relative z-10">
-                    <p
-                        class="text-secondary group-hover:text-white opacity-0 group-hover:opacity-80 translate-y-4 group-hover:translate-y-0 transition-all duration-500 text-sm leading-relaxed">
-                        High-end multi-family assets in prime coastal and metropolitan locations with 100% occupancy
-                        targets.
-                    </p>
-                    <div
-                        class="mt-8 w-12 h-12 rounded-full border border-secondary/20 group-hover:border-white/20 flex items-center justify-center group-hover:rotate-45 transition-all duration-500">
-                        <span class="text-secondary group-hover:text-white">→</span>
-                    </div>
-                </div>
+                <h3 class="text-2xl font-bold text-secondary mb-3 group-hover:text-white">Consistent ROI</h3>
+                <p class="text-secondary group-hover:text-blue-100 leading-relaxed">Enjoy annual returns ranging from 8%
+                    to 15% on prime commercial and residential properties.</p>
             </div>
 
-            <div
-                class="bg-white p-12 relative group cursor-pointer transition-all duration-500 overflow-hidden min-h-[400px] flex flex-col justify-between">
+            <div class="group p-8 rounded-3xl bg-gray-50 hover:bg-primary transition-all duration-500">
                 <div
-                    class="absolute inset-0 bg-secondary translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-expo">
+                    class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-500">
+                    <svg class="w-8 h-8 text-primary group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                        </path>
+                    </svg>
                 </div>
-
-                <div class="relative z-10">
-                    <span class="text-secondary group-hover:text-white/40 font-mono text-xs transition-colors">02
-                        /</span>
-                    <h3
-                        class="text-secondary group-hover:text-white text-2xl font-extrabold uppercase mt-4 tracking-tighter transition-colors">
-                        Commercial <br>Logistics</h3>
-                </div>
-
-                <div class="relative z-10">
-                    <p
-                        class="text-secondary group-hover:text-white opacity-0 group-hover:opacity-80 translate-y-4 group-hover:translate-y-0 transition-all duration-500 text-sm leading-relaxed">
-                        Modern warehousing and last-mile distribution centers powering the next generation of global
-                        e-commerce.
-                    </p>
-                    <div
-                        class="mt-8 w-12 h-12 rounded-full border border-secondary/20 group-hover:border-white/20 flex items-center justify-center group-hover:rotate-45 transition-all duration-500">
-                        <span class="text-secondary group-hover:text-white">→</span>
-                    </div>
-                </div>
+                <h3 class="text-2xl font-bold text-secondary mb-3 group-hover:text-white">Secure Assets</h3>
+                <p class="text-secondary group-hover:text-blue-100 leading-relaxed">Every property is 100% legally
+                    vetted
+                    with physical title deeds and government approval.</p>
             </div>
 
-            <div
-                class="bg-white p-12 relative group cursor-pointer transition-all duration-500 overflow-hidden min-h-[400px] flex flex-col justify-between">
+            <div class="group p-8 rounded-3xl bg-gray-50 hover:bg-primary transition-all duration-500">
                 <div
-                    class="absolute inset-0 bg-secondary translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-expo">
+                    class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-500">
+                    <svg class="w-8 h-8 text-primary group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                        </path>
+                    </svg>
                 </div>
-
-                <div class="relative z-10">
-                    <span class="text-secondary group-hover:text-white/40 font-mono text-xs transition-colors">03
-                        /</span>
-                    <h3
-                        class="text-secondary group-hover:text-white text-2xl font-extrabold uppercase mt-4 tracking-tighter transition-colors">
-                        Hospitality <br>Developments</h3>
-                </div>
-
-                <div class="relative z-10">
-                    <p
-                        class="text-secondary group-hover:text-white opacity-0 group-hover:opacity-80 translate-y-4 group-hover:translate-y-0 transition-all duration-500 text-sm leading-relaxed">
-                        Boutique resort and landmark hotel projects that merge architectural heritage with premium guest
-                        experiences.
-                    </p>
-                    <div
-                        class="mt-8 w-12 h-12 rounded-full border border-secondary/20 group-hover:border-white/20 flex items-center justify-center group-hover:rotate-45 transition-all duration-500">
-                        <span class="text-secondary group-hover:text-white">→</span>
-                    </div>
-                </div>
+                <h3 class="text-2xl font-bold text-secondary mb-3 group-hover:text-white">Low Entry Barrier</h3>
+                <p class="text-secondary group-hover:text-blue-100 leading-relaxed">Start your real estate journey with
+                    a
+                    minimum investment. Luxury property ownership is now accessible.</p>
             </div>
 
-            <div
-                class="bg-white p-12 relative group cursor-pointer transition-all duration-500 overflow-hidden min-h-[400px] flex flex-col justify-between">
-                <div
-                    class="absolute inset-0 bg-secondary translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-expo">
-                </div>
+        </div>
 
-                <div class="relative z-10">
-                    <span class="text-secondary group-hover:text-white/40 font-mono text-xs transition-colors">04
-                        /</span>
-                    <h3
-                        class="text-secondary group-hover:text-white text-2xl font-extrabold uppercase mt-4 tracking-tighter transition-colors">
-                        Urban <br>Infrastructure</h3>
-                </div>
-
-                <div class="relative z-10">
-                    <p
-                        class="text-secondary group-hover:text-white opacity-0 group-hover:opacity-80 translate-y-4 group-hover:translate-y-0 transition-all duration-500 text-sm leading-relaxed">
-                        Public-private partnership projects focused on sustainable transit and community-centric urban
-                        rejuvenation.
-                    </p>
-                    <div
-                        class="mt-8 w-12 h-12 rounded-full border border-secondary/20 group-hover:border-white/20 flex items-center justify-center group-hover:rotate-45 transition-all duration-500">
-                        <span class="text-secondary group-hover:text-white">→</span>
-                    </div>
-                </div>
+        <div class="mt-16 p-8 bg-secondary rounded-3xl flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="text-white">
+                <h4 class="text-2xl font-bold">Ready to secure your future?</h4>
+                <p class="text-gray-400">Download our 2024 Investment Guide for free.</p>
             </div>
-
+            <a href="#"
+                class="px-8 py-4 bg-primary text-white font-bold rounded-xl hover:bg-blue-700 transition-colors">
+                Get Investment Guide
+            </a>
         </div>
     </div>
 </section>
-
-<style>
-    .ease-expo {
-        transition-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
-    }
-</style>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const sectorTl = gsap.timeline({
-            scrollTrigger: {
-                trigger: "#asset-sectors",
-                start: "top 75%",
-            }
-        });
-
-        sectorTl.from(".reveal-header", {
-                y: 30,
-                opacity: 0,
-                duration: 1,
-                ease: "power3.out"
-            })
-            .from(".reveal-sectors", {
-                scale: 0.98,
-                opacity: 0,
-                duration: 1.2,
-                ease: "expo.out"
-            }, "-=0.6");
-    });
-</script>

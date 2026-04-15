@@ -1,20 +1,22 @@
 <section class="py-24 bg-white border-b border-secondary/5" id="philosophy-split">
-    <div class="container mx-auto px-6 lg:px-12">
+    <div class="container mx-auto px-6 lg:px-12 ">
 
-        <div class="max-w-4xl mb-20">
-            <div class="inline-flex items-center gap-4 mb-6">
+        <div class="max-w-4xl mb-10 mx-auto text-center">
+            <div class="inline-flex items-center gap-4 mb-6 justify-center">
                 <div class="w-10 h-[1px] bg-secondary/30"></div>
                 <span class="text-secondary font-bold uppercase tracking-[0.3em] text-[10px]">
                     Institutional Grade Strategy
                 </span>
+                <div class="w-10 h-[1px] bg-secondary/30"></div>
             </div>
-            <h2 class="text-3xl md:text-4xl font-black text-secondary mb-4 leading-tight ">
+
+            <h2 class="text-3xl md:text-4xl font-black text-secondary mb-4 leading-tight">
                 A Disciplined Approach To <br>
                 Capital Preservation.
             </h2>
         </div>
 
-        <div class="flex flex-col lg:flex-row border border-secondary/10">
+        <div class="flex flex-col  lg:flex-row border border-secondary/10">
 
             <div class="w-full lg:w-1/2 p-2 border-r border-secondary/10">
                 <div class="relative h-full min-h-[400px] overflow-hidden group">
@@ -34,7 +36,7 @@
                         At Capital Union, our philosophy is rooted in the preservation of generational wealth. We
                         prioritize physical assets with long-term social utility.
                     </p>
-                    <p class="text-secondary opacity-60 text-sm leading-relaxed italic">
+                    <p class="text-secondary ">
                         "We do not chase market trends; instead, we focus on intrinsic value and economic resilience to
                         secure the future for our partners."
                     </p>
@@ -45,7 +47,7 @@
                         class="p-8 md:p-12 border-r border-secondary/10 group hover:bg-secondary/[0.02] transition-colors">
                         <span class="text-secondary/20 font-black text-2xl block mb-4">01</span>
                         <h4 class="text-secondary font-bold uppercase tracking-widest text-xs mb-3">Risk Discipline</h4>
-                        <p class="text-secondary opacity-60 text-[11px] leading-relaxed">
+                        <p class="text-secondary  text-[13px] leading-relaxed">
                             Conservative entry points with high-margin safety nets for every capital deployment.
                         </p>
                     </div>
@@ -53,7 +55,7 @@
                         <span class="text-secondary/20 font-black text-2xl block mb-4">02</span>
                         <h4 class="text-secondary font-bold uppercase tracking-widest text-xs mb-3">Asset Preservation
                         </h4>
-                        <p class="text-secondary opacity-60 text-[11px] leading-relaxed">
+                        <p class="text-secondary  text-[13px] leading-relaxed">
                             Focusing on premium locations and sustainable structures that endure time.
                         </p>
                     </div>
