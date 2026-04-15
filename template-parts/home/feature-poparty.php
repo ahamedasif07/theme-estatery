@@ -44,7 +44,7 @@ $properties = [
     <div class="container mx-auto px-4">
 
         <div class="text-center max-w-2xl mx-auto mb-12">
-            <span class="text-primary font-bold tracking-[0.2em] uppercase text-[10px] mb-2 inline-block">Exclusive
+            <span class="text-secondary font-bold tracking-[0.2em] uppercase text-[10px] mb-2 inline-block">Exclusive
                 Listings</span>
             <h2 class="text-3xl md:text-4xl font-black text-secondary mb-4 leading-tight">Featured Properties</h2>
             <div class="w-12 h-1 bg-primary mx-auto mb-4 rounded-full"></div>

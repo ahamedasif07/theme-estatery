@@ -28,6 +28,12 @@
     top: 0 !important;
     font-size: 16px;
   }
+
+  *,
+  *::before,
+  *::after {
+    border-radius: 0 !important;
+  }
 }
 
 /* Next.js Styled Language Switcher Styles */
