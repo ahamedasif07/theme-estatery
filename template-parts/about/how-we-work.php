@@ -1,19 +1,20 @@
-<section class="py-24 bg-[#fcfcfc] overflow-hidden" id="process-section">
+<section class="py-14 bg-[#fcfcfc] overflow-hidden" id="process-section">
     <div class="container mx-auto px-6 lg:px-12">
-        <div class="text-center max-w-3xl mx-auto mb-20">
+        <div class="text-center max-w-3xl mx-auto mb-20 reveal-header">
             <span
                 class="text-primary font-bold uppercase tracking-[0.3em] text-xs flex justify-center items-center gap-3">
                 <span class="w-8 h-[1px] bg-primary/30"></span>
                 Work Flow
                 <span class="w-8 h-[1px] bg-primary/30"></span>
             </span>
-            <h2 class="text-4xl md:text-5xl font-serif text-primary mt-4">How We Bring Your <br> <span
-                    class="italic text-secondary">Vision to Life</span></h2>
+            <h2 class="text-4xl md:text-5xl font-serif text-primary mt-4">
+                How We Bring Your <br>
+                <span class="italic text-secondary">Vision to Life</span>
+            </h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 relative">
-
-            <div class="absolute top-1/4 left-0 w-full h-[1px] bg-primary/10 z-0 hidden lg:block"></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+            <div class="process-line absolute top-1/4 left-0 w-0 h-[1px] bg-primary/10 z-0 hidden lg:block"></div>
 
             <?php
             $steps = [
@@ -24,9 +25,11 @@
             ];
             foreach ($steps as $index => $step):
             ?>
-                <div class="process-step relative z-10 group">
+                <div
+                    class="process-step relative z-10 group p-8 rounded-xl bg-white border border-primary/5 hover:border-primary/20 hover:shadow-xl hover:shadow-primary/5 transition-all duration-500 opacity-0">
+
                     <div
-                        class="w-16 h-16 bg-white border border-primary/10 flex items-center justify-center rounded-full mb-6 group-hover:border-primary transition-colors duration-500 shadow-sm relative overflow-hidden">
+                        class="step-icon w-16 h-16 bg-white border border-primary/10 flex items-center justify-center rounded-full mb-6 group-hover:border-primary transition-colors duration-500 shadow-sm relative overflow-hidden">
                         <span class="text-primary font-bold text-xl relative z-10"><?php echo $step[0]; ?></span>
                         <div
                             class="absolute inset-0 bg-primary translate-y-full group-hover:translate-y-0 transition-transform duration-500">
@@ -36,30 +39,58 @@
                     </div>
 
                     <h4 class="text-xl font-bold text-primary mb-3"><?php echo $step[1]; ?></h4>
-                    <p class="body-copy pr-4 mb-0">
+                    <p class="body-copy mb-0 text-gray-500 leading-relaxed">
                         <?php echo $step[2]; ?>
                     </p>
 
                     <div
-                        class="absolute top-[31px] -left-2 w-2 h-2 bg-primary rounded-full hidden lg:block opacity-0 group-hover:opacity-100 transition-opacity">
+                        class="step-dot absolute top-[31px] -left-2 w-2 h-2 bg-primary rounded-full hidden lg:block scale-0">
                     </div>
                 </div>
             <?php endforeach; ?>
-
         </div>
     </div>
 </section>
 
 <script>
-    gsap.from(".process-step", {
-        scrollTrigger: {
-            trigger: "#process-section",
-            start: "top 80%",
-        },
-        y: 50,
-        opacity: 0,
-        duration: 1,
-        stagger: 0.25,
-        ease: "power3.out"
+    document.addEventListener("DOMContentLoaded", function() {
+        gsap.registerPlugin(ScrollTrigger);
+
+        const processTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: "#process-section",
+                start: "top 70%", // Starts slightly earlier for smoother flow
+                toggleActions: "play none none none"
+            }
+        });
+
+        // 1. Reveal Header First
+        processTl.from(".reveal-header", {
+                y: 30,
+                opacity: 0,
+                duration: 0.4,
+                ease: "power3.out"
+            })
+            // 2. Animate the horizontal line across (Desktop)
+            .to(".process-line", {
+                width: "100%",
+                duration: 0.6,
+                ease: "expo.inOut"
+            }, "-=0.4")
+            // 3. Staggered reveal of the cards
+            .to(".process-step", {
+                y: 0,
+                opacity: 1,
+                duration: 0.8,
+                stagger: 0.2,
+                ease: "power3.out"
+            }, "-=0.8")
+            // 4. Pop the dots into existence
+            .to(".step-dot", {
+                scale: 1,
+                duration: 1,
+                stagger: 0.2,
+                ease: "back.out(2)"
+            }, "-=0.6");
     });
 </script>

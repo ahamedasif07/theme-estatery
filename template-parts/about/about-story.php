@@ -56,10 +56,10 @@
                         "Morbi gravida sit amet sem a pharetra."
                     ];
                     foreach ($features as $item): ?>
-                    <li class="flex items-center gap-4 group">
-                        <span class="h-[2px] w-8 bg-primary group-hover:w-12 transition-all duration-300"></span>
-                        <span class="text-gray-700 font-medium tracking-wide"><?php echo $item; ?></span>
-                    </li>
+                        <li class="flex items-center gap-4 group">
+                            <span class="h-[2px] w-8 bg-primary group-hover:w-12 transition-all duration-300"></span>
+                            <span class="text-gray-700 font-medium tracking-wide"><?php echo $item; ?></span>
+                        </li>
                     <?php endforeach; ?>
                 </ul>
 
