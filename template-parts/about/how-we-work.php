@@ -2,14 +2,14 @@
     <div class="container mx-auto px-6 lg:px-12">
         <div class="text-center max-w-3xl mx-auto mb-20 reveal-header">
             <span
-                class="text-primary font-bold uppercase tracking-[0.3em] text-xs flex justify-center items-center gap-3">
-                <span class="w-8 h-[1px] bg-primary/30"></span>
+                class="text-secondary font-bold uppercase tracking-[0.3em] text-xs flex justify-center items-center gap-3">
+                <span class="w-8 h-[1px] bg-secondary"></span>
                 Work Flow
-                <span class="w-8 h-[1px] bg-primary/30"></span>
+                <span class="w-8 h-[1px] bg-secondary"></span>
             </span>
-            <h2 class="text-4xl md:text-5xl font-serif text-primary mt-4">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-serif text-secondary leading-tight font-semibold">
                 How We Bring Your <br>
-                <span class="italic text-secondary">Vision to Life</span>
+                <span class=" text-secondary">Vision to Life</span>
             </h2>
         </div>
 
@@ -30,7 +30,7 @@
 
                     <div
                         class="step-icon w-16 h-16 bg-white border border-primary/10 flex items-center justify-center rounded-full mb-6 group-hover:border-primary transition-colors duration-500 shadow-sm relative overflow-hidden">
-                        <span class="text-primary font-bold text-xl relative z-10"><?php echo $step[0]; ?></span>
+                        <span class="text-secondary font-bold text-xl relative z-10"><?php echo $step[0]; ?></span>
                         <div
                             class="absolute inset-0 bg-primary translate-y-full group-hover:translate-y-0 transition-transform duration-500">
                         </div>
@@ -38,7 +38,7 @@
                             class="text-white font-bold text-xl absolute z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"><?php echo $step[0]; ?></span>
                     </div>
 
-                    <h4 class="text-xl font-bold text-primary mb-3"><?php echo $step[1]; ?></h4>
+                    <h4 class="text-xl font-bold text-secondary mb-3"><?php echo $step[1]; ?></h4>
                     <p class="body-copy mb-0 text-gray-500 leading-relaxed">
                         <?php echo $step[2]; ?>
                     </p>

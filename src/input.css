@@ -28,49 +28,6 @@
     top: 0 !important;
     font-size: 16px;
   }
-
-  /* Large Hero Titles */
-  h1 {
-    @apply text-5xl md:text-7xl font-bold tracking-tight mb-6;
-    max-width: 900px;
-    line-height: 1.1;
-  }
-
-  /* Section Headings */
-  h2 {
-    @apply text-4xl md:text-5xl font-semibold tracking-tight mb-5;
-    max-width: 800px;
-    line-height: 1.2;
-  }
-
-  /* Sub-headings / Card Titles */
-  h3 {
-    @apply text-2xl md:text-3xl font-bold tracking-normal mb-4;
-    max-width: 700px;
-  }
-
-  /* Small Bold Titles */
-  h4 {
-    @apply text-xl font-bold tracking-wide mb-3;
-  }
-
-  /* Shared body copy for consistent paragraph styling across sections */
-  p,
-  .body-copy {
-    @apply font-normal leading-relaxed text-secondary mb-6;
-    max-width: 70ch;
-    font-size: 1.125rem;
-  }
-
-  /* Small Uppercase Labels (Used for "About Us" or "Our Process" tags) */
-  .section-label {
-    @apply text-xs font-bold uppercase tracking-[0.3em] text-primary mb-4 block;
-  }
-
-  /* Links */
-  a {
-    @apply transition-all duration-300 ease-in-out;
-  }
 }
 
 /* Next.js Styled Language Switcher Styles */

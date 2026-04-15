@@ -2,7 +2,7 @@
     <div class="container mx-auto px-6">
         <div class="max-w-3xl mb-16">
             <span class="text-secondary font-bold uppercase tracking-[0.3em] text-xs">Our Philosophy</span>
-            <h2 class="text-4xl md:text-5xl font-serif text-primary mt-4 leading-tight">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-serif text-secondary leading-tight font-semibold">
                 The Core Pillars That <br> Define Our Craft
             </h2>
         </div>
@@ -49,7 +49,7 @@
                             </svg>
                         </div>
 
-                        <h4 class="text-2xl font-bold text-primary mb-4"><?php echo $val['title']; ?></h4>
+                        <h4 class="text-2xl font-bold text-secondary mb-4"><?php echo $val['title']; ?></h4>
                         <p class="body-copy mb-0">
                             <?php echo $val['desc']; ?>
                         </p>

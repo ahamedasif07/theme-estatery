@@ -34,17 +34,13 @@
                     </span>
                 </div>
 
-                <h2 class="text-4xl md:text-6xl font-serif text-primary leading-[1.1] font-medium">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-serif text-secondary leading-tight font-semibold">
                     Designing the <span class="italic text-secondary">Future</span>, <br>
                     Respecting the <span class="italic">Past</span>.
                 </h2>
 
                 <div class="relative">
-                    <svg class="absolute -top-4 -left-8 w-12 h-12 text-primary/90 -z-10" fill="currentColor"
-                        viewBox="0 0 24 24">
-                        <path
-                            d="M14.017 21L14.017 18C14.017 16.899 14.899 16 16 16C17.101 16 18 16.899 18 18L18 21L14.017 21ZM14.017 21L10 21L10 18C10 14.686 12.686 12 16 12L16 11C16 9.343 14.657 8 13 8L13 7C15.209 7 17 8.791 17 11L17 12L18 12C21.314 12 24 14.686 24 18L24 21L14.017 21ZM4.017 21L4.017 18C4.017 16.899 4.899 16 6 16C7.101 16 8 16.899 8 18L8 21L4.017 21ZM4.017 21L0 21L0 18C0 14.686 2.686 12 6 12L6 11C6 9.343 4.657 8 3 8L3 7C5.209 7 7 8.791 7 11L7 12L8 12C11.314 12 14 14.686 14 18L14 21L4.017 21Z" />
-                    </svg>
+
 
                     <p class=" border-l-2 border-primary/90 pl-8">
                         Our journey began in 1988 with a simple blueprint: to build with uncompromising quality. Today,
@@ -59,7 +55,7 @@
                             class="w-full h-full object-cover">
                     </div>
                     <div>
-                        <h4 class="text-xl font-bold text-primary tracking-tight">Asif Ahamed</h4>
+                        <h4 class="text-xl font-bold text-secondary tracking-tight">Asif Ahamed</h4>
                         <p class="text-secondary text-xs uppercase tracking-widest font-bold">Founder & Managing
                             Director</p>
                     </div>

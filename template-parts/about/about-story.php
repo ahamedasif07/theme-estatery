@@ -38,7 +38,7 @@
                     <span class="text-secondary font-bold text-lg uppercase tracking-widest">01. About Us</span>
                 </div>
 
-                <h2 class="text-4xl md:text-5xl lg:text-6xl font-serif text-primary leading-tight font-semibold">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-serif text-secondary leading-tight font-semibold">
                     We Develop Quality <br> Project Since 1988
                 </h2>
 
