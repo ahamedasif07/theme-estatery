@@ -7,7 +7,7 @@
                 Work Flow
                 <span class="w-8 h-[1px] bg-secondary"></span>
             </span>
-            <h2 class="text-4xl md:text-5xl lg:text-6xl font-serif text-secondary leading-tight font-semibold">
+            <h2 class="text-4xl font-extrabold text-secondary mb-6">
                 How We Bring Your <br>
                 <span class=" text-secondary">Vision to Life</span>
             </h2>

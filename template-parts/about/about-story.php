@@ -38,7 +38,7 @@
                     <span class=" text-secondary font-bold uppercase tracking-[0.3em] text-xs"> Our Story</span>
                 </div>
 
-                <h2 class="text-4xl md:text-5xl lg:text-6xl font-serif text-secondary leading-tight font-semibold">
+                <h2 class="text-4xl font-extrabold text-secondary mb-6">
                     We Develop Quality <br> Project Since 1988
                 </h2>
 

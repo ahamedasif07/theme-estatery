@@ -2,7 +2,7 @@
 
 
     <div class="container mx-auto px-6 lg:px-12 relative z-10">
-        <div class="flex flex-col lg:flex-row items-center lg:items-end gap-12 lg:gap-0">
+        <div class="flex flex-col lg:flex-row items-center  gap-12 lg:gap-0">
 
             <div class="w-full lg:w-5/12 relative group reveal-image-container">
                 <div class="absolute -bottom-6 -right-6 w-2/3 h-2/3 border-2 border-secondary z-0 hidden lg:block">
@@ -31,7 +31,7 @@
                     </span>
                 </div>
 
-                <h2 class="text-4xl md:text-5xl lg:text-6xl font-serif text-secondary leading-tight font-semibold">
+                <h2 class="text-4xl font-extrabold text-secondary mb-6">
                     Designing the <span class="italic text-secondary">Future</span>, <br>
                     Respecting the <span class="italic">Past</span>.
                 </h2>

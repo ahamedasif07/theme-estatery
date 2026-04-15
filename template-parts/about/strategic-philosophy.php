@@ -2,7 +2,7 @@
     <div class="container mx-auto px-6">
         <div class="max-w-3xl mb-16">
             <span class="text-secondary font-bold uppercase tracking-[0.3em] text-xs">Our Philosophy</span>
-            <h2 class="text-4xl md:text-5xl lg:text-6xl font-serif text-secondary leading-tight font-semibold">
+            <h2 class="text-4xl font-extrabold text-secondary mb-6">
                 The Core Pillars That <br> Define Our Craft
             </h2>
         </div>
