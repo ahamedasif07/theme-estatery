@@ -1,3 +1,19 @@
+<?php
+$features = [
+    ['name' => 'Garden',         'icon' => '<path d="m12 13 3-3 3 3m-6 0v7a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-7"/><path d="M12 22v-9m0 0 3-3 3 3"/><circle cx="12" cy="5" r="3"/><path d="M7 22V11a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11"/><path d="M18 22V11a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v11"/>'],
+    ['name' => 'Pool',           'icon' => '<path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>'],
+    ['name' => 'Garage',         'icon' => '<path d="M3 10V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4M6 12h12M6 16h12M6 20h12"/><rect width="18" height="12" x="3" y="10" rx="2"/>'],
+    ['name' => 'Central AC',     'icon' => '<path d="M12 12V2m0 20v-4m10-6h-4M6 12H2m16.27-6.27-2.83 2.83M8.56 15.44l-2.83 2.83m10.54 0-2.83-2.83M8.56 8.56 5.73 5.73"/>'],
+    ['name' => 'Panoramic',      'icon' => '<path d="M3 7V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2M3 17v2a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2M2 9h20v6H2z"/>'],
+    ['name' => 'Golf View',      'icon' => '<path d="M4 22V4m0 0 13 4-13 4"/><circle cx="18" cy="20" r="2"/>'],
+    ['name' => 'Water View',     'icon' => '<path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/>'],
+    ['name' => 'Privacy',        'icon' => '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>'],
+    ['name' => 'Fitness Center', 'icon' => '<path d="m6.5 6.5 11 11M6.5 17.5l11-11M2 9v6M22 9v6M5 21l2-2M17 5l2-2M19 19l2 2M3 3l2 2"/>'],
+    ['name' => 'Smart Home',     'icon' => '<path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5M9 22v-4a4.8 4.8 0 0 1 1-3.5"/><path d="M18 10a6 6 0 0 0-12 0c0 4.99 8.29 11.3 12 12 3.71-.7 12-7.01 12-12z"/><path d="M12 9v4M9 12h6"/>'],
+    ['name' => 'High Ceiling',   'icon' => '<path d="M5 3h14M12 21V7m0 0-4 4m4-4 4 4"/>'],
+    ['name' => 'Security',       'icon' => '<rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>']
+];
+?>
 <section class="max-w-7xl mx-auto px-4 py-12 font-sans text-slate-900">
 
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-12 h-auto md:h-[500px]">
@@ -73,7 +89,8 @@
                         fringilla.
                     </p>
                     <p class="text-slate-600 leading-relaxed">
-                        Experience luxury living in this spacious property. It features high ceilings, premium finishes,
+                        Experience luxury living in this spacious property. It features high ceilings, premium
+                        finishes,
                         and large windows that fill the space with natural light.
                     </p>
                 </div>
@@ -82,30 +99,30 @@
 
                 <div>
                     <h3 class="text-xl font-bold mb-6">Features</h3>
-                    <div class="grid grid-cols-2 md:grid-cols-3 gap-y-4 gap-x-2">
-                        <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
-                            <span>Garden</span>
-                        </div>
-                        <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
-                            <span>Pool</span>
-                        </div>
-                        <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
-                            <span>Garage</span>
-                        </div>
-                        <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
-                            <span>Central AC</span>
-                        </div>
-                        <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
-                            <span>Panoramic</span>
-                        </div>
-                        <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
-                            <span>Golf View</span>
+
+
+                    <div>
+                        <h3 class="text-xl font-bold mb-6">Features</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-4">
+
+                            <?php foreach ($features as $feature): ?>
+                                <div class="flex items-center gap-3 group">
+                                    <div
+                                        class="w-10 h-10 rounded-full flex items-center justify-center  transition-all duration-300">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="w-5 h-5  transition-transform duration-300 group-hover:scale-110">
+                                            <?php echo $feature['icon']; ?>
+                                        </svg>
+                                    </div>
+
+                                    <span
+                                        class="text-sm font-semibold text-slate-600 group-hover:text-slate-900 transition-colors">
+                                        <?php echo $feature['name']; ?>
+                                    </span>
+                                </div>
+                            <?php endforeach; ?>
                         </div>
                     </div>
                 </div>
@@ -301,5 +318,10 @@
         modal.addEventListener('click', (e) => {
             if (e.target === modal) closeModal();
         });
+    </script>
+    <script>
+        if (window.lucide) {
+            lucide.createIcons();
+        }
     </script>
 </section>
