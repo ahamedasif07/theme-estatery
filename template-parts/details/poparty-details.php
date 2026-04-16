@@ -12,7 +12,7 @@
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-1 md:col-span-1 gap-4">
-            <div class="h-[150px] md:h-[242px] overflow-hidden rounded-2xl cursor-pointer group border-2 border-transparent hover:border-amber-400 transition-all gallery-thumb"
+            <div class="h-[150px] md:h-[242px] overflow-hidden rounded-2xl cursor-pointer group border-2 border-transparent hover:border-primary transition-all gallery-thumb"
                 onclick="updateGallery(this, 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260')">
                 <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600"
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
@@ -23,7 +23,7 @@
                     class="w-full h-full object-cover">
                 <div
                     class="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-white transition-all group-hover:bg-black/40 backdrop-blur-[2px]">
-                    <i data-lucide="plus-square" class="w-8 h-8 mb-1 text-amber-400"></i>
+                    <i data-lucide="plus-square" class="w-8 h-8 mb-1 text-primary"></i>
                     <span id="photo-count-label"
                         class="font-bold text-xs uppercase tracking-widest text-center px-2">View Photos</span>
                 </div>
@@ -35,28 +35,28 @@
         <div class="lg:w-2/3 space-y-8">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 bg-slate-50 p-6 rounded-xl border border-slate-100">
                 <div class="flex items-center gap-3">
-                    <i data-lucide="bed" class="w-6 h-6 text-amber-500"></i>
+                    <i data-lucide="bed" class="w-6 h-6 text-primary"></i>
                     <div>
                         <p class="text-lg font-bold">04</p>
                         <p class="text-xs text-slate-500 uppercase font-semibold">Bedrooms</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-3 border-l-0 md:border-l border-slate-200 md:pl-6">
-                    <i data-lucide="bath" class="w-6 h-6 text-amber-500"></i>
+                    <i data-lucide="bath" class="w-6 h-6 text-primary"></i>
                     <div>
                         <p class="text-lg font-bold">02</p>
                         <p class="text-xs text-slate-500 uppercase font-semibold">Bathrooms</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-3 border-l-0 md:border-l border-slate-200 md:pl-6">
-                    <i data-lucide="maximize" class="w-6 h-6 text-amber-500"></i>
+                    <i data-lucide="maximize" class="w-6 h-6 text-primary"></i>
                     <div>
                         <p class="text-lg font-bold">5,200m²</p>
                         <p class="text-xs text-slate-500 uppercase font-semibold">Building</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-3 border-l-0 md:border-l border-slate-200 md:pl-6">
-                    <i data-lucide="layers" class="w-6 h-6 text-amber-500"></i>
+                    <i data-lucide="layers" class="w-6 h-6 text-primary"></i>
                     <div>
                         <p class="text-lg font-bold">6,800m²</p>
                         <p class="text-xs text-slate-500 uppercase font-semibold">Lot Size</p>
@@ -84,27 +84,27 @@
                     <h3 class="text-xl font-bold mb-6">Features</h3>
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-y-4 gap-x-2">
                         <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
                             <span>Garden</span>
                         </div>
                         <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
                             <span>Pool</span>
                         </div>
                         <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
                             <span>Garage</span>
                         </div>
                         <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
                             <span>Central AC</span>
                         </div>
                         <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
                             <span>Panoramic</span>
                         </div>
                         <div class="flex items-center gap-2 text-slate-600">
-                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-primary"></i>
                             <span>Golf View</span>
                         </div>
                     </div>
@@ -121,35 +121,21 @@
 
         <div class="lg:w-1/3">
             <div class="sticky top-8 bg-white rounded-2xl shadow-2xl overflow-hidden border border-slate-100">
-                <div class="p-6 bg-slate-900 text-white flex items-center gap-4">
-                    <img src="https://i.pravatar.cc/100?u=asif"
-                        class="w-16 h-16 rounded-full border-2 border-amber-400">
-                    <div>
-                        <h4 class="font-bold text-lg">Asif Hosen</h4>
-                        <p class="text-xs text-amber-400 uppercase">Property Specialist</p>
-                    </div>
-                </div>
-                <div class="px-8 pt-6 space-y-3">
-                    <div class="flex items-center gap-3 text-slate-600">
-                        <i data-lucide="phone" class="w-5 h-5 text-amber-500"></i>
-                        <span>(888) 4000-2424</span>
-                    </div>
-                    <div class="flex items-center gap-3 text-slate-600">
-                        <i data-lucide="mail" class="w-5 h-5 text-amber-500"></i>
-                        <span>asif@domain.tld</span>
-                    </div>
-                </div>
+
+
                 <div class="p-8">
-                    <h5 class="font-bold mb-4 text-slate-800">Leave your message here</h5>
+                    <h5 class="font-bold mb-4 text-slate-800">Contact Us</h5>
                     <form class="space-y-4">
                         <input type="text" placeholder="Name"
-                            class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-amber-500">
+                            class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-primary">
+                        <input type="text" placeholder="Number"
+                            class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-primary">
                         <input type="email" placeholder="Email"
-                            class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-amber-500">
+                            class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-primary">
                         <textarea rows="4" placeholder="I'm interested in this property."
-                            class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-amber-500 resize-none"></textarea>
+                            class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-primary resize-none"></textarea>
                         <button
-                            class="w-full py-4 bg-amber-400 text-slate-900 font-bold rounded-lg hover:bg-slate-800 hover:text-white transition-all flex items-center justify-center gap-2">
+                            class="w-full py-4 bg-primary text-slate-900 font-bold rounded-lg hover:bg-slate-800 hover:text-white transition-all flex items-center justify-center gap-2">
                             <i data-lucide="send" class="w-4 h-4"></i> SEND MESSAGE
                         </button>
                     </form>
@@ -242,7 +228,7 @@
             let sideHtml = '<div class="grid grid-cols-2 md:grid-cols-1 md:col-span-1 gap-4">';
             sideImages.forEach(img => {
                 sideHtml += `
-                    <div class="h-[150px] md:h-[242px] overflow-hidden rounded-2xl cursor-pointer group border-2 border-transparent hover:border-amber-400 transition-all gallery-thumb"
+                    <div class="h-[150px] md:h-[242px] overflow-hidden rounded-2xl cursor-pointer group border-2 border-transparent hover:border-primary transition-all gallery-thumb"
                         onclick="updateGallery(this, '${img}?auto=compress&cs=tinysrgb&w=1260')">
                         <img src="${img}?auto=compress&cs=tinysrgb&w=600" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>`;
@@ -267,8 +253,8 @@
             mainImg.classList.add('fade-out');
             setTimeout(() => {
                 mainImg.src = imageUrl;
-                document.querySelectorAll('.gallery-thumb').forEach(t => t.classList.remove('border-amber-400'));
-                element.classList.add('border-amber-400');
+                document.querySelectorAll('.gallery-thumb').forEach(t => t.classList.remove('border-primary'));
+                element.classList.add('border-primary');
                 mainImg.classList.remove('fade-out');
             }, 250);
         }
