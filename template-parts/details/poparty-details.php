@@ -135,7 +135,7 @@
                         <textarea rows="4" placeholder="I'm interested in this property."
                             class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-primary resize-none"></textarea>
                         <button
-                            class="w-full py-4 bg-primary text-slate-900 hover:text-gray-50 font-bold rounded-lg hover:bg-slate-800 hover:text-white transition-all flex items-center justify-center gap-2">
+                            class="w-full py-4 bg-primary  hover:text-gray-50 font-bold rounded-lg hover:bg-slate-800 text-white transition-all flex items-center justify-center gap-2">
                             <i data-lucide="send" class="w-4 h-4"></i> SEND MESSAGE
                         </button>
                     </form>
