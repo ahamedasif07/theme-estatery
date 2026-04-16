@@ -3122,6 +3122,13 @@
       }
     }
   }
+  .hover\:text-gray-50 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-gray-50);
+      }
+    }
+  }
   .hover\:text-primary {
     &:hover {
       @media (hover: hover) {
