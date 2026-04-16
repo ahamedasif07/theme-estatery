@@ -64,11 +64,58 @@
                 </div>
             </div>
 
-            <div class="bg-slate-50 p-8 rounded-xl border border-slate-100">
-                <h2 class="text-3xl font-serif font-bold mb-6">Descriptions</h2>
-                <p class="text-slate-600 leading-relaxed">Experience luxury living in this spacious property. It
-                    features high ceilings, premium finishes, and large windows that fill the space with natural light.
-                </p>
+            <div class="bg-slate-50 p-8 rounded-xl border border-slate-100 space-y-8">
+                <div>
+                    <h2 class="text-3xl font-serif font-bold mb-6">Descriptions</h2>
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        Posuere libero litora fusce in rhoncus consequat elementum amet mauris. Platea rhoncus nullam
+                        euismod etiam dignissim iaculis. Netus felis senectus rutrum torquent eleifend habitant
+                        fringilla.
+                    </p>
+                    <p class="text-slate-600 leading-relaxed">
+                        Experience luxury living in this spacious property. It features high ceilings, premium finishes,
+                        and large windows that fill the space with natural light.
+                    </p>
+                </div>
+
+                <hr class="border-slate-200">
+
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Features</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-y-4 gap-x-2">
+                        <div class="flex items-center gap-2 text-slate-600">
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <span>Garden</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-slate-600">
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <span>Pool</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-slate-600">
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <span>Garage</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-slate-600">
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <span>Central AC</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-slate-600">
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <span>Panoramic</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-slate-600">
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500"></i>
+                            <span>Golf View</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rounded-xl overflow-hidden border border-slate-200 h-[350px]">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5404230551285!2d-0.12162622337144415!3d51.50072911030101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sbd!4v1710000000000!5m2!1sen!2sbd"
+                    class="w-full h-full border-0" allowfullscreen="" loading="lazy">
+                </iframe>
             </div>
         </div>
 
@@ -82,15 +129,29 @@
                         <p class="text-xs text-amber-400 uppercase">Property Specialist</p>
                     </div>
                 </div>
+                <div class="px-8 pt-6 space-y-3">
+                    <div class="flex items-center gap-3 text-slate-600">
+                        <i data-lucide="phone" class="w-5 h-5 text-amber-500"></i>
+                        <span>(888) 4000-2424</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-slate-600">
+                        <i data-lucide="mail" class="w-5 h-5 text-amber-500"></i>
+                        <span>asif@domain.tld</span>
+                    </div>
+                </div>
                 <div class="p-8">
+                    <h5 class="font-bold mb-4 text-slate-800">Leave your message here</h5>
                     <form class="space-y-4">
-                        <input type="text" placeholder="Your Name"
+                        <input type="text" placeholder="Name"
                             class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-amber-500">
-                        <textarea rows="4" placeholder="Message..."
+                        <input type="email" placeholder="Email"
+                            class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-amber-500">
+                        <textarea rows="4" placeholder="I'm interested in this property."
                             class="w-full px-4 py-3 bg-slate-50 border rounded-lg outline-none focus:border-amber-500 resize-none"></textarea>
                         <button
-                            class="w-full py-4 bg-amber-400 text-slate-900 font-bold rounded-lg hover:bg-slate-800 hover:text-white transition-all">REQUEST
-                            INFO</button>
+                            class="w-full py-4 bg-amber-400 text-slate-900 font-bold rounded-lg hover:bg-slate-800 hover:text-white transition-all flex items-center justify-center gap-2">
+                            <i data-lucide="send" class="w-4 h-4"></i> SEND MESSAGE
+                        </button>
                     </form>
                 </div>
             </div>
@@ -125,6 +186,7 @@
         </div>
     </div>
 
+
     <style>
         .fade-out {
             opacity: 0;
@@ -147,7 +209,6 @@
             scrollbar-width: none;
         }
 
-        /* Modal Entry Animation */
         #galleryModal.show {
             opacity: 1;
             display: flex;
@@ -159,7 +220,6 @@
     </style>
 
     <script>
-        // --- 1. Dynamic Data Configuration ---
         const propertyImages = [
             "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
             "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg",
@@ -171,16 +231,13 @@
             "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg"
         ];
 
-        // --- 2. Initialize Dynamic Elements ---
         document.addEventListener('DOMContentLoaded', () => {
             const sideContainer = document.getElementById('side-gallery-container');
             const modalThumbContainer = document.getElementById('modal-thumbnails-container');
             const photoLabel = document.getElementById('photo-count-label');
 
-            // Update photo count label
             if (photoLabel) photoLabel.innerText = `View ${propertyImages.length} Photos`;
 
-            // Inject side thumbnails (first 2 images after main)
             const sideImages = propertyImages.slice(1, 3);
             let sideHtml = '<div class="grid grid-cols-2 md:grid-cols-1 md:col-span-1 gap-4">';
             sideImages.forEach(img => {
@@ -193,7 +250,6 @@
             sideHtml += '</div>';
             sideContainer.innerHTML = sideHtml;
 
-            // Inject all images into Modal Strip
             propertyImages.forEach((img, index) => {
                 const thumb = document.createElement('img');
                 thumb.src = `${img}?auto=compress&cs=tinysrgb&w=300`;
@@ -206,7 +262,6 @@
             if (window.lucide) lucide.createIcons();
         });
 
-        // --- 3. Gallery & Modal Logic ---
         function updateGallery(element, imageUrl) {
             const mainImg = document.getElementById('main-display-image');
             mainImg.classList.add('fade-out');
@@ -225,8 +280,6 @@
             modal.classList.remove('hidden');
             setTimeout(() => modal.classList.add('show'), 10);
             document.body.style.overflow = 'hidden';
-
-            // Auto-load first image
             const firstThumb = document.querySelector('.modal-thumb');
             if (firstThumb) updateModalImg(firstThumb, propertyImages[0]);
         }
@@ -242,14 +295,12 @@
         function updateModalImg(el, fullUrl) {
             modalMainImg.classList.remove('opacity-100', 'scale-100');
             modalMainImg.classList.add('opacity-0', 'scale-95');
-
             setTimeout(() => {
                 modalMainImg.src = `${fullUrl}?auto=compress&cs=tinysrgb&w=1600`;
                 modalMainImg.onload = () => {
                     modalMainImg.classList.remove('opacity-0', 'scale-95');
                     modalMainImg.classList.add('opacity-100', 'scale-100');
                 };
-
                 document.querySelectorAll('.modal-thumb').forEach(img => img.classList.remove(
                     'active-modal-thumb'));
                 el.classList.add('active-modal-thumb');
@@ -261,7 +312,6 @@
             }, 300);
         }
 
-        // Close on click outside
         modal.addEventListener('click', (e) => {
             if (e.target === modal) closeModal();
         });

@@ -698,6 +698,9 @@
   .h-\[300px\] {
     height: 300px;
   }
+  .h-\[350px\] {
+    height: 350px;
+  }
   .h-\[400px\] {
     height: 400px;
   }
@@ -1190,6 +1193,10 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-0 {
+    border-style: var(--tw-border-style);
+    border-width: 0px;
   }
   .border-2 {
     border-style: var(--tw-border-style);
