@@ -100,18 +100,23 @@
     <div id="galleryModal"
         class="fixed inset-0 z-[9999] bg-slate-900/40 hidden backdrop-blur-md items-center justify-center p-4 transition-all duration-500 opacity-0">
 
-        <div class="relative w-full max-w-5xl bg-white/10 p-4 md:p-6 rounded-[2.5rem] border border-white/30 shadow-[0_32px_64px_-15px_rgba(0,0,0,0.5)] flex flex-col gap-5 scale-90 transition-all duration-500"
+        <div class="relative w-full max-w-5xl bg-white/90 p-4 md:p-6 rounded-[2.5rem] border border-white/30 shadow-[0_32px_64px_-15px_rgba(0,0,0,0.5)] flex flex-col gap-5 scale-90 transition-all duration-500"
             id="modalContainer">
 
             <button onclick="closeModal()"
-                class="absolute -top-3 -right-3 md:top-6 md:right-6 p-3 bg-white text-slate-900 rounded-full shadow-2xl hover:bg-amber-400 transition-colors z-[10001]">
-                <i data-lucide="x" class="w-6 h-6"></i>
+                class="absolute -top-3 -right-3 md:top-6 md:right-6 p-3  rounded-full shadow-2xl transition-all z-[100001] flex items-center justify-center border-slate-200">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
             </button>
 
             <div
                 class="w-full h-[55vh] md:h-[60vh] rounded-3xl overflow-hidden bg-black/40 relative flex items-center justify-center border border-white/10 shadow-inner">
+
                 <img id="modal-main-img" src=""
-                    class="max-w-full max-h-full object-contain transition-all duration-500 scale-95 opacity-0">
+                    class="w-full h-full object-cover transition-all duration-500 scale-100 opacity-0">
             </div>
 
             <div id="modal-thumbnails-container"
