@@ -2,7 +2,7 @@
     <div class="container mx-auto px-5">
         <div class="text-center mb-16">
             <h2 class="text-3xl md:text-5xl font-bold text-secondary mb-4">Smart Real Estate Investing</h2>
-            <p class="text-gray-500 max-w-2xl mx-auto text-lg">Build your wealth through high-growth real estate assets
+            <p class="text-secondary max-w-2xl mx-auto ">Build your wealth through high-growth real estate assets
                 in prime locations.</p>
         </div>
 

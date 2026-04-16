@@ -1,8 +1,8 @@
 <section class="py-24 bg-[#FCFCFC] overflow-hidden" id="values-section">
     <div class="container mx-auto px-6">
-        <div class="max-w-3xl mb-16">
-            <span class="text-secondary font-bold uppercase tracking-[0.3em] text-xs">Our Philosophy</span>
-            <h2 class="text-4xl font-extrabold text-secondary mb-6">
+        <div class="container mb-16">
+            <h4 class="text-secondary font-bold uppercase tracking-[0.3em] text-center pb-4 text-xs">Our Philosophy</h4>
+            <h2 class="text-4xl font-extrabold text-center text-secondary mb-6">
                 The Core Pillars That <br> Define Our Craft
             </h2>
         </div>

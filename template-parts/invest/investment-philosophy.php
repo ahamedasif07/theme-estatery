@@ -4,7 +4,7 @@
         <div class="max-w-4xl mb-10 mx-auto text-center">
             <div class="inline-flex items-center gap-4 mb-6 justify-center">
                 <div class="w-10 h-[1px] bg-secondary/30"></div>
-                <span class="text-secondary font-bold uppercase tracking-[0.3em] text-[10px]">
+                <span class="text-secondary font-bold uppercase tracking-[0.3em] text-xs ">
                     Institutional Grade Strategy
                 </span>
                 <div class="w-10 h-[1px] bg-secondary/30"></div>

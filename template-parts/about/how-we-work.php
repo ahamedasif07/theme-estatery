@@ -1,8 +1,7 @@
 <section class="py-14 bg-[#fcfcfc] overflow-hidden" id="process-section">
     <div class="container mx-auto px-6 lg:px-12">
         <div class="text-center max-w-3xl mx-auto mb-20 reveal-header">
-            <span
-                class="text-secondary font-bold uppercase tracking-[0.3em] text-xs flex justify-center items-center gap-3">
+            <span class="text-secondary font-bold uppercase  text-xs pb-2 flex justify-center items-center gap-3">
                 <span class="w-8 h-[1px] bg-secondary"></span>
                 Work Flow
                 <span class="w-8 h-[1px] bg-secondary"></span>

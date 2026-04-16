@@ -42,7 +42,7 @@
                     We Develop Quality <br> Project Since 1988
                 </h2>
 
-                <p class="body-copy max-w-xl mb-0">
+                <p class="text-secondary max-w-xl mb-0">
                     Nulla et sapien felis. Cras ex sapien, eleifend ac orci id, maximus aliquet ipsum. Duis in maximus
                     nisl. Curabitur vitae mi fermentum, ullamcorper.
                 </p>

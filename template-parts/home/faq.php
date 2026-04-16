@@ -2,14 +2,14 @@
     <div class="container mx-auto px-6">
         <div class="text-center max-w-2xl mx-auto mb-16">
             <h2 class="text-4xl font-extrabold text-secondary mb-6">Frequently Asked Questions</h2>
-            <p class="body-copy mx-auto mb-0">Everything you need to know about the platform.</p>
+            <p class="text-secondary mx-auto mb-0">Everything you need to know about the platform.</p>
         </div>
 
         <div class="flex flex-col lg:flex-row gap-12 items-start">
             <div class="lg:w-5/12 w-full">
                 <div class="bg-gray-50 p-10 rounded-[2.5rem] border border-gray-100 sticky top-10">
                     <h3 class="text-3xl font-bold text-secondary mb-6">Need More Help?</h3>
-                    <p class="body-copy mb-8">Our support team is here for you.</p>
+                    <p class="text-secondary mb-8">Our support team is here for you.</p>
                     <a href="#"
                         class="bg-[#0A1D23] text-white px-8 py-4 rounded-2xl font-bold inline-block hover:bg-blue-600 transition-all">
                         Contact Support

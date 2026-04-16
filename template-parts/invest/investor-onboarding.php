@@ -2,13 +2,13 @@
     <div class="container mx-auto px-6 max-w-6xl">
 
         <div class="max-w-3xl mx-auto text-center mb-16">
-            <span class="inline-block text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-4">
+            <span class="inline-block text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-2">
                 Exclusive Onboarding
             </span>
-            <h2 class="text-3xl md:text-5xl font-bold text-secondary mb-6 leading-tight">
+            <h2 class="text-3xl md:text-5xl font-bold text-secondary mb-3 leading-tight">
                 Start Your Investment Journey
             </h2>
-            <p class="text-secondary/70 text-base md:text-lg max-w-2xl mx-auto">
+            <p class="text-secondary  mx-auto">
                 Complete the inquiry form to help our capital relations team understand your objectives.
             </p>
         </div>

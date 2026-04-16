@@ -39,7 +39,7 @@
                 <div class="relative">
 
 
-                    <p class=" border-l-2 border-primary/90 pl-8">
+                    <p class=" border-l-2 text-secondary border-primary/90 pl-8">
                         Our journey began in 1988 with a simple blueprint: to build with uncompromising quality. Today,
                         we continue to bridge the gap between architectural innovation and human-centric design. We
                         don't just develop projects; we cultivate legacies.
